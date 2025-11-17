@@ -1,3 +1,40 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "A creative and modern workspace setup.",
+      "imageUrl": "https://images.unsplash.com/photo-1693159682660-c125e71844d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjcmVhdGl2ZSUyMHdvcmtzcGFjZXxlbnwwfHx8fDE3NjMzMjU2Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "creative workspace"
+    },
+    {
+      "id": "headshot",
+      "description": "A professional headshot of Vaishnavi Hadke.",
+      "imageUrl": "https://images.unsplash.com/photo-1652471943570-f3590a4e52ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NjMzNDAzOTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "portfolio-1",
+      "description": "A mockup of a modern website design on a laptop.",
+      "imageUrl": "https://images.unsplash.com/photo-1678690832311-bb6e361989ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWJzaXRlJTIwZGVzaWdufGVufDB8fHx8MTc2MzM5MDc0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "website design"
+    },
+    {
+      "id": "portfolio-2",
+      "description": "Analytics dashboard showing social media campaign growth.",
+      "imageUrl": "https://images.unsplash.com/photo-1701673841497-96b38bafd33d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb2NpYWwlMjBtZWRpYSUyMGNhbXBhaWdufGVufDB8fHx8MTc2MzQyMTk5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "social media campaign"
+    },
+    {
+      "id": "portfolio-3",
+      "description": "A collection of branding materials for a new company.",
+      "imageUrl": "https://images.unsplash.com/photo-1618249807726-2f381c277de1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxicmFuZCUyMGlkZW50aXR5fGVufDB8fHx8MTc2MzMwMTQ3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "brand identity"
+    },
+    {
+      "id": "portfolio-4",
+      "description": "A screenshot of a successful email marketing campaign.",
+      "imageUrl": "https://images.unsplash.com/photo-1682336869523-2c6859f781cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxlbWFpbCUyMG1hcmtldGluZ3xlbnwwfHx8fDE3NjMzNTYzMTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "email marketing"
+    }
+  ]
 }
