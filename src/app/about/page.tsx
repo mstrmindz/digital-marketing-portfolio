@@ -10,21 +10,33 @@ const headshotImage = PlaceHolderImages.find(p => p.id === 'headshot');
 const professionalJourney = [
     {
         icon: <Briefcase className="h-6 w-6 text-primary" />,
-        period: "2020 - Present",
-        title: "Senior Digital Marketer",
-        description: "Leading strategy and execution for key accounts, driving significant growth in ROI and brand engagement."
+        period: "Apr 2025 - Present",
+        title: "Field Marketing Representative",
+        description: "Representing Kognitive Sales Solutions in the field, driving brand awareness and customer acquisition through direct engagement."
     },
     {
-        icon: <Award className="h-6 w-6 text-primary" />,
-        period: "2018 - 2020",
-        title: "Social Media Specialist",
-        description: "Managed and grew social media presence for B2C clients, increasing follower base by over 300%."
+        icon: <Briefcase className="h-6 w-6 text-primary" />,
+        period: "Jan 2025 - Mar 2025",
+        title: "Host/Cashier",
+        description: "Provided excellent customer service as a host and cashier at The Ballroom Bowl, ensuring a smooth and enjoyable guest experience."
     },
     {
-        icon: <GraduationCap className="h-6 w-6 text-primary" />,
-        period: "2014 - 2018",
-        title: "B.Sc. in Marketing",
-        description: "Graduated with honors, focusing on digital trends and consumer behavior."
+        icon: <Briefcase className="h-6 w-6 text-primary" />,
+        period: "Oct 2023 - Aug 2024",
+        title: "Manager - Social Media & Client Servicing",
+        description: "Managed social media strategies and maintained client relationships at BigTrunk Communications, driving engagement and client satisfaction."
+    },
+    {
+        icon: <Briefcase className="h-6 w-6 text-primary" />,
+        period: "Jun 2022 - May 2023",
+        title: "Senior Client Servicing and Digital Media Executive",
+        description: "Handled senior client accounts and executed digital media campaigns at Dentsu Creative, contributing to successful project delivery."
+    },
+    {
+        icon: <Briefcase className="h-6 w-6 text-primary" />,
+        period: "Oct 2021 - May 2022",
+        title: "Social Media & Content Executive",
+        description: "Created and managed engaging content and social media presence for various brands at Buzz Makers."
     }
 ];
 
