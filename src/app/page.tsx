@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, BarChart, Megaphone, PaintBrush, Search, Star } from "lucide-react";
+import { ArrowRight, BarChart, Megaphone, Paintbrush, Search, Star } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -21,7 +21,7 @@ const services = [
     description: "Creating and managing campaigns on social platforms to build your brand.",
   },
   {
-    icon: <PaintBrush className="h-8 w-8 text-primary" />,
+    icon: <Paintbrush className="h-8 w-8 text-primary" />,
     title: "Content Creation",
     description: "Crafting compelling content that engages your audience and tells your story.",
   },

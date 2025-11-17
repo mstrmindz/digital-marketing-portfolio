@@ -1,5 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { CheckCircle, Megaphone, PaintBrush, Search, TrendingUp, Users } from "lucide-react";
+import { CheckCircle, Megaphone, Paintbrush, Search, TrendingUp, Users } from "lucide-react";
 
 const services = [
   {
@@ -37,7 +37,7 @@ const services = [
   },
   {
     title: "Content Marketing",
-    icon: <PaintBrush className="w-10 h-10 text-primary mb-4" />,
+    icon: <Paintbrush className="w-10 h-10 text-primary mb-4" />,
     description: "Attract and retain your audience with high-quality, valuable content. From blog posts to videos, I help you tell your story in a way that converts.",
     features: [
       "Content Strategy & Planning",
