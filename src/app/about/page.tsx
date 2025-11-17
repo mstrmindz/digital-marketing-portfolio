@@ -98,9 +98,9 @@ export default function AboutPage() {
                 A timeline of my professional and educational milestones.
             </p>
         </div>
-        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:justify-center">
             {professionalJourney.map((item, index) => (
-                <Card key={index}>
+                <Card key={index} className="flex flex-col">
                     <CardHeader className="flex flex-row items-start gap-4">
                         {item.icon}
                         <div>
@@ -108,7 +108,7 @@ export default function AboutPage() {
                             <CardTitle className="text-lg font-headline">{item.title}</CardTitle>
                         </div>
                     </CardHeader>
-                    <CardContent>
+                    <CardContent className="flex-grow">
                         <p>{item.description}</p>
                     </CardContent>
                 </Card>
