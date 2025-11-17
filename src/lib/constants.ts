@@ -10,7 +10,7 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
     { 
         name: 'LinkedIn', 
-        href: 'https://www.linkedin.com', // Placeholder
+        href: 'https://www.linkedin.com/in/vaishnavi-hadke/', 
         icon: Linkedin 
     },
     { 
