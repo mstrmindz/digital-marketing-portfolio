@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Award, Briefcase, GraduationCap } from "lucide-react";
+import { Briefcase } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -50,7 +50,7 @@ export default function AboutPage() {
         </p>
       </div>
 
-      <div className="mt-12 grid gap-12 md:grid-cols-5 items-start">
+      <div className="mt-12 grid gap-8 md:grid-cols-5 md:gap-12 items-start">
         <div className="md:col-span-2">
           {headshotImage && (
             <div className="aspect-square relative rounded-lg shadow-lg overflow-hidden">
@@ -65,7 +65,7 @@ export default function AboutPage() {
             </div>
           )}
         </div>
-        <div className="md:col-span-3 space-y-6 text-foreground/90 text-lg">
+        <div className="md:col-span-3 space-y-6 text-foreground/90 text-base md:text-lg">
           <h2 className="font-headline text-3xl font-bold">My Philosophy</h2>
           <p>
             I’ve always had a thing for creativity—colors, patterns, words, and ideas that spark curiosity. Somewhere along the way, I realized I could turn that spark into impact (and income!) through the world of marketing and sales.
@@ -98,10 +98,10 @@ export default function AboutPage() {
                 A timeline of my professional and educational milestones.
             </p>
         </div>
-        <div className="mt-12 grid gap-8 md:grid-cols-3">
+        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {professionalJourney.map((item, index) => (
                 <Card key={index}>
-                    <CardHeader className="flex flex-row items-center gap-4">
+                    <CardHeader className="flex flex-row items-start gap-4">
                         {item.icon}
                         <div>
                             <p className="text-sm text-muted-foreground">{item.period}</p>

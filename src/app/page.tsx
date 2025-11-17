@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, BarChart, Megaphone, Paintbrush, Search, Star } from "lucide-react";
+import { ArrowRight, BarChart, Megaphone, Paintbrush, Search } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const heroImage = PlaceHolderImages.find(p => p.id === 'hero');
@@ -57,7 +57,7 @@ export default function Home() {
   return (
     <div className="flex-1">
       {/* Hero Section */}
-      <section className="relative w-full h-[70vh] min-h-[500px] flex items-center justify-center text-center">
+      <section className="relative w-full h-[70vh] min-h-[500px] flex items-center justify-center text-center px-4">
         {heroImage && (
           <Image
             src={heroImage.imageUrl}
@@ -70,13 +70,13 @@ export default function Home() {
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
         <div className="relative container z-10 flex flex-col items-center justify-center gap-4">
-          <h1 className="text-4xl font-headline font-bold md:text-6xl lg:text-7xl">
+          <h1 className="text-4xl font-headline font-bold sm:text-5xl md:text-6xl lg:text-7xl">
             Driving Growth Through Digital Strategy
           </h1>
           <p className="max-w-2xl text-lg text-foreground/80 md:text-xl">
             I'm Vaishnavi Hadke, a digital marketer helping brands connect with their audience and achieve their goals.
           </p>
-          <div className="flex gap-4 mt-4">
+          <div className="flex flex-col sm:flex-row gap-4 mt-4">
             <Button asChild size="lg">
               <Link href="/portfolio">View My Work</Link>
             </Button>
@@ -96,7 +96,7 @@ export default function Home() {
               I offer a range of services to help your business succeed online.
             </p>
           </div>
-          <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {services.map((service, index) => (
               <Card key={index} className="flex flex-col items-center text-center p-6 transition-transform transform hover:-translate-y-2">
                 <CardHeader>
@@ -131,6 +131,7 @@ export default function Home() {
                     fill
                     className="object-cover transition-transform duration-300 group-hover:scale-105"
                     data-ai-hint={image.imageHint}
+                    sizes="(max-width: 768px) 100vw, 50vw"
                   />
                 </div>
               </Card>

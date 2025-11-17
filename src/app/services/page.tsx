@@ -1,5 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { CheckCircle, Megaphone, Paintbrush, Search, TrendingUp, Users } from "lucide-react";
+import { CheckCircle, Paintbrush, Search, TrendingUp, Users } from "lucide-react";
 
 const services = [
   {
@@ -63,13 +63,13 @@ export default function ServicesPage() {
             <CardHeader className="items-center text-center">
               {service.icon}
               <CardTitle className="font-headline text-2xl">{service.title}</CardTitle>
-              <CardDescription className="px-6">{service.description}</CardDescription>
+              <CardDescription className="px-4 md:px-6">{service.description}</CardDescription>
             </CardHeader>
             <CardContent className="flex-grow">
-              <ul className="space-y-3">
+              <ul className="space-y-3 text-sm md:text-base">
                 {service.features.map((feature, i) => (
-                  <li key={i} className="flex items-center">
-                    <CheckCircle className="w-5 h-5 text-green-500 mr-3 flex-shrink-0" />
+                  <li key={i} className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-3 flex-shrink-0 mt-1" />
                     <span>{feature}</span>
                   </li>
                 ))}
