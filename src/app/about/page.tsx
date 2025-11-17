@@ -68,10 +68,22 @@ export default function AboutPage() {
         <div className="md:col-span-3 space-y-6 text-foreground/90 text-lg">
           <h2 className="font-headline text-3xl font-bold">My Philosophy</h2>
           <p>
-            I believe that the best marketing doesn't feel like marketing at all. It's about building genuine connections and providing real value. My approach is rooted in understanding the 'why' behind consumer behavior, then using data-driven insights to craft strategies that resonate.
+            I’ve always had a thing for creativity—colors, patterns, words, and ideas that spark curiosity. Somewhere along the way, I realized I could turn that spark into impact (and income!) through the world of marketing and sales.
           </p>
           <p>
-            For me, every click, like, and share tells a story. My job is to listen to that story and use it to help brands grow in a meaningful and sustainable way. I'm committed to transparency, continuous learning, and delivering results that go beyond the metrics.
+            Over the last 4 years, I’ve built my career from Content Writer Intern to Account Manager in marketing with agencies like Dentsu Creative and BigTrunk Communications, collaborating with industry legends like Tata Motors Passenger Vehicles and more. From pitching ideas to crafting campaigns, I learned the art of understanding audiences and creating moments that make brands stand out and surprise!
+          </p>
+          <p>
+            In 2025, life brought me to Toronto, Canada. I completed a postgraduate diploma in Project Management and am now stepping into my second postgrad in Marketing this Fall. Meanwhile, I’m living the thrill of the field as a Field Marketing Representative with PC Financial — where I get to see the power of marketing meet the rush of real-time sales. Talking to customers, hitting their pain points, and closing sales has taught me marketing at its rawest and most practical level. While doing that, I have started with my new course in Marketing Management – Digital Media program to learn in-depth about how Canadian Market works around it.
+          </p>
+          <p>
+            And here’s the truth: marketing never leaves me. Like Djo’s iconic line—“You can take the man out of the city, but not the city out of the man”—I can’t stop my eyes from chasing ads everywhere I go. Whether it’s a subway poster, a gas station banner, or snackable content on social media platforms, I find myself decoding how brands thought it through—and what makes us stop, smile, and act.
+          </p>
+          <p>
+            Now, I’m exploring Canada’s vibrant ad world, soaking in how brands connect with people here, and bringing my own blend of creative storytelling + sales-driven strategy to every project I touch.
+          </p>
+          <p className="italic text-foreground/70">
+            💬 Have you seen an ad you just can’t get out of your head? I’d love to hear about it, DM me and let’s geek out about marketing together!
           </p>
           <Button asChild size="lg" className="mt-4">
             <Link href="/contact">Let's Connect</Link>
