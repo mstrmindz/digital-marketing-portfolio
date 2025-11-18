@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Tiktok, Twitter } from "lucide-react";
 
 export const NAV_LINKS = [
   { href: '/about', label: 'About' },
@@ -13,14 +13,24 @@ export const SOCIAL_LINKS = [
         href: 'https://www.linkedin.com/in/vaishnavi-hadke/', 
         icon: Linkedin 
     },
+    {
+        name: 'Instagram',
+        href: 'https://www.instagram.com', // Placeholder
+        icon: Instagram
+    },
+    {
+        name: 'Facebook',
+        href: 'https://www.facebook.com', // Placeholder
+        icon: Facebook
+    },
+    {
+        name: 'TikTok',
+        href: 'https://www.tiktok.com', // Placeholder
+        icon: Tiktok
+    },
     { 
         name: 'Twitter', 
         href: 'https://www.twitter.com', // Placeholder
         icon: Twitter 
-    },
-    { 
-        name: 'GitHub', 
-        href: 'https://www.github.com', // Placeholder
-        icon: Github
     },
 ];
