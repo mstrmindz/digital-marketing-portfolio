@@ -24,9 +24,9 @@ export function SiteHeader() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="relative flex items-center rounded-md px-3 py-2 text-sm font-medium text-foreground/70 transition-all duration-300 ease-in-out hover:text-foreground hover:shadow-inner"
+                className="nav-link-sparkle rounded-md px-3 py-2 text-sm font-medium text-foreground/70 transition-colors duration-300 hover:text-foreground"
               >
-                {link.label}
+                <span className="relative z-10">{link.label}</span>
               </Link>
             ))}
           </nav>

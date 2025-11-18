@@ -82,3 +82,40 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .nav-link-sparkle {
+    @apply relative overflow-hidden;
+  }
+  .nav-link-sparkle::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: conic-gradient(
+      transparent,
+      rgba(255, 215, 185, 0.4), /* Golden pink */
+      rgba(255, 182, 193, 0.4), /* Light pink */
+      transparent 30%
+    );
+    transform-origin: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+
+  .nav-link-sparkle:hover::after {
+    animation: sparkle 1.5s infinite linear;
+    opacity: 1;
+  }
+
+  @keyframes sparkle {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
