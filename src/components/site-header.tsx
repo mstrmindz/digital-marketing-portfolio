@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { Menu, Sprout } from "lucide-react";
 
-import { cn } from "@/lib/utils";
 import { NAV_LINKS } from "@/lib/constants";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -20,12 +19,12 @@ export function SiteHeader() {
               Vaishnavi Hadke
             </span>
           </Link>
-          <nav className="hidden gap-6 md:flex">
+          <nav className="hidden items-center gap-2 md:flex">
             {NAV_LINKS.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="flex items-center text-lg font-medium text-foreground/60 transition-colors hover:text-foreground/80 sm:text-sm"
+                className="relative flex items-center rounded-md px-3 py-2 text-sm font-medium text-foreground/70 transition-all duration-300 ease-in-out hover:text-foreground hover:shadow-inner"
               >
                 {link.label}
               </Link>
